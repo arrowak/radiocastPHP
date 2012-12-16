@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Radiocast | Login</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/foundation.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	</head>
+	
+	<body>
+		<div class="three columns centered">
+			<center>
+			<img src="../img/loho.jpg" alt="logo" class="logo" />
+			</center>
+			<form method="POST" action="">
+				<fieldset style="padding:15px 15px;background:#EAEAEA;" class="well shadow">
+					<legend style="" class="alert alert-danger"> Login </legend>
+					<label>Login ID</label>
+					<input type="text" name="txtLoginId" id="txtLoginId" placeholder="ex: bob234" />
+					<label>Password</label>
+					<input type="password" name="txtPassowrd" id="txtPassword" />
+					<br>
+					<button type="submit" name="login" id="login" class="radius button">Login</button>		
+					
+				</fieldset>	
+				<div id="alertlogin" style="display:block;"> </div>		
+			</form>		
+		</div>
+	</body>
+
+	<?php include "footer.php" ?>
+	
+	<script type="text/javascript" src="../js/jquery.js"> </script>
+	<script type="text/javascript" src="../js/radiocastPHP.js"> </script>
+	
+</html>

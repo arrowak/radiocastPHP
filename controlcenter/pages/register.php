@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Radiocast | SignUp</title>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/foundation.min.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	</head>
+	
+	<body>
+		<div class="five columns centered">
+			<form method="POST" action="">
+				<fieldset style="padding: 15px 15px;" class="well shadow">
+					<legend class="alert alert-danger"> Sign-Up </legend>
+					<label>Full Name</label>	
+					<input type="text" name="txtFullname" id="txtFullname" />
+					<label>Login ID</label>
+					<input type="text" name="txtUsername" id="txtUsername" />	
+					<label>Password</label>
+					<input type="password" name="txtPassword" id="txtPassword" />
+					<button class="button" type="submit" name="btnSignUp" id="btnSignUp">Sign-Up</button>	
+				</fieldset>			
+			</form>		
+			<div class="" id="alertsignup" style="display:block;"></div>
+		</div>
+		
+	</body>
+	
+	<?php include "footer.php" ?>
+	
+	<script type="text/javascript" src="../js/jquery.js"> </script>
+	<script type="text/javascript" src="../js/radiocastPHP.js"> </script>
+</html>
